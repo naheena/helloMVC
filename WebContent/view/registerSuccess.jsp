@@ -7,9 +7,16 @@
 <title>Insert title here</title>
 </head>
 <body>
-	This is an error page.
+	<h1>You registered successfully.</h1>
+	<ul>
+		<li>Id : ${customer.id}</li>
+		<li>password : ${customer.password}</li>
+		<li>gender : ${customer.gender}</li>
+		<li>Name : ${customer.name}</li>
+		<li>Email : ${customer.email}</li>
+	</ul>
 	<p>
-		<a href="/helloMVC/index.jsp">try again</a>
+		<a href="/helloMVC/index.jsp">go to home page</a>
 	</p>
 </body>
 </html>

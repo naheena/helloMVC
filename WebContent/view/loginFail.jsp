@@ -7,9 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-	This is an error page.
+	<h1>Login Failed : ${id} is not present</h1>
 	<p>
-		<a href="/helloMVC/index.jsp">try again</a>
+		<a href="/helloMVC/index.jsp">go to home page</a>
 	</p>
 </body>
 </html>
