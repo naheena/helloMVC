@@ -41,8 +41,8 @@ public class DoRegister extends HttpServlet {
 		
 		String page;
 		
-		if (id == null || password == null || name == null || gender == null || email == null)	
-			page = "/view.error.jsp";
+		if (id.trim() == "" || password.trim() == "" || name.trim() == "" || gender.trim() == "" || email.trim() == "")	
+			page = "/view/error.jsp";
 		else {
 			page = "/view/registerSuccess.jsp";
 			Customer customer = new Customer(id, password, name, gender, email);
