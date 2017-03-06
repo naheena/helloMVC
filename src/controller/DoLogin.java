@@ -28,6 +28,7 @@ public class DoLogin extends HttpServlet {
         super();
         // TODO Auto-generated constructor stub
         System.out.println("test");
+        System.out.println("hihi");
     }
 
 	/**
